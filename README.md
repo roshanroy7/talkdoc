@@ -1,6 +1,4 @@
-# talkdoc
-
-# TalkDoc 🗂️
+# TalkDoc 
 
 A RAG-powered document Q&A system. Upload any PDF or text file and ask questions about it in plain English.
 
