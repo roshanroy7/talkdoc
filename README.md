@@ -15,8 +15,9 @@ Built with LangChain, ChromaDB, OpenAI, and Streamlit.
 
 - LangChain — document loading, chunking, retrieval chain
 - ChromaDB — local vector database
-- OpenAI API — embeddings + language model
+- Ollama + Mistral 7B — local LLM, zero API costs
 - Streamlit — web interface
+
 
 ## Project structure
 
@@ -34,12 +35,16 @@ talkdoc/
 
 ## Setup
 
-coming soon
+1. Install Ollama from https://ollama.com
+2. Run `ollama pull mistral`
+3. Clone this repo
+4. Run `pip install -r requirements.txt`
+5. Run `streamlit run app.py`
 
 ## Demo
 
-! [TalkDoc Demo](assets/demo.png)
+![TalkDoc Demo](assets/demo.png)
 
 ## Status
 
-In progress
+Complete
