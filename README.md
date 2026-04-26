@@ -19,19 +19,16 @@ Built with LangChain, ChromaDB, OpenAI, and Streamlit.
 - Streamlit — web interface
 
 
-## Project structure
+## Project Structure
 
-talkdoc/
-│
-├── src/
-│   ├── loader.py       # document loading (PDF, TXT, DOCX)
-│   ├── chunker.py      # text splitting
-│   ├── embedder.py     # embedding + vector store
-│   └── retriever.py    # retrieval chain
-│
-├── app.py              # Streamlit UI
-├── requirements.txt    # dependencies
-└── .gitignore
+| File/Folder | Purpose |
+|-------------|---------|
+| `src/loader.py` | Document loading (PDF, TXT, DOCX) |
+| `src/chunker.py` | Text splitting |
+| `src/embedder.py` | Embedding and vector store |
+| `src/retriever.py` | Retrieval chain |
+| `app.py` | Streamlit UI |
+| `requirements.txt` | Dependencies |
 
 ## Setup
 
@@ -48,3 +45,4 @@ talkdoc/
 ## Status
 
 Complete
+ 
